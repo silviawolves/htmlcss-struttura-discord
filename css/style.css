@@ -11,6 +11,7 @@ body {
 
 header {
     background-color: #ACD7E5;
+    height: 50px;
 }
 
 a {
@@ -24,18 +25,24 @@ a {
     min-width: 300px;
     height: 100%;
     margin: 0 auto;
-    padding: 10px 0;
+    padding: 2rem 0;
 }
 
-.container .nav-bar {
-    background-color: #DAA51F;
+.nav-bar {
     display: flex;
-    height: 30px;
+    width: 100%;
+    max-width: 960px;
+    min-width: 300px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 10px;
 }
 
 .nav-bar .col {
+    background-color: #DAA51F;
     border: 1px dashed black;
     padding: 5px;
+    height: 30px;
 }
 
 .side-column {
@@ -53,10 +60,10 @@ a {
     border-bottom: 3px solid #ACD7E5;
 }
 
-.container .title-section {
+.container .titles-section {
     background-color: #EF82EE;
     border: 1px dashed #000;
-    height: 90%;
+    height: 100%;
     width: 75%;
     margin: 0 auto;
 }
