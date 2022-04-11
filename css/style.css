@@ -3,3 +3,60 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    background-color: #ACD7E5;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    min-width: 300px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.container .nav-bar {
+    background-color: #DAA51F;
+    display: flex;
+    height: 30px;
+}
+
+.nav-bar .col {
+    border: 1px dashed black;
+    padding: 5px;
+}
+
+.side-column {
+    width: 20%;
+}
+
+.center-column {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.background-image {
+    background-color: #00008B;
+    height: 300px;
+    border-bottom: 3px solid #ACD7E5;
+}
+
+.container .title-section {
+    background-color: #EF82EE;
+    border: 1px dashed #000;
+    height: 90%;
+    width: 75%;
+    margin: 0 auto;
+}
